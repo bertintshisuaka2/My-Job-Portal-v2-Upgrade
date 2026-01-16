@@ -1,0 +1,9 @@
+{
+  "query": "ALTER TABLE `resumes` ADD `extractedData` text;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2kcURTxrWDvvnqM.5035eec0b682 --database eKhPh2GsQNK2a39nGAwCap --execute ALTER TABLE `resumes` ADD `extractedData` text;",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 487
+}
